@@ -7,7 +7,7 @@ body{
 
 .sidemenu{
     height: 100%;
-    width: 200px;
+    width: 250px;
     position: fixed;
     z-index: 1;
     top:0;
@@ -19,7 +19,7 @@ body{
 
 .sidemenu a, .clothes 
 {
-    padding: 6px 8px 6px 16px;
+    padding: 6px, 8px, 6px, 16px;
     text-decoration: none;
     font-size: 20px;
     color: black;
@@ -35,4 +35,11 @@ body{
 .sidemenu a:hover, .clothes:hover
 {
     color: antiquewhite
+}
+
+.market
+{
+    margin-left: 250px;
+    font-size: 20px;
+    padding: 15px;
 }
