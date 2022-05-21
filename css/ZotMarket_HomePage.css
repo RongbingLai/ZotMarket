@@ -1,10 +1,15 @@
 header{
 	background-color: #FFC300;
-	height: 100px;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
 }
 
 #mainlogo{
-	height: 50px;
+	height: 60px;
 	padding: 10px;
 }
 
@@ -12,6 +17,7 @@ header{
 	display: inline-block;
 	font-size: 500%;
 	margin: auto;
+	margin-top: 80px;
 	padding-left: 550px;
 	font-family: arial, sans-serif;
 	color: #0F3E87;
@@ -21,6 +27,7 @@ header{
 	display: inline-block;
 	font-size: 500%;
 	margin: auto;
+	margin-top: 80px;
 	font-family: arial, sans-serif;
 	color: #FA9E35;
 }
