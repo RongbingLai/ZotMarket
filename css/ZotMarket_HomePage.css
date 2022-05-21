@@ -29,6 +29,7 @@ input[type=text] {
 	margin: auto;
 	margin-top: 80px;
 	padding-left: 550px;
+	text-align: center;
 	font-family: arial, sans-serif;
 	color: #0F3E87;
 }
