@@ -1,0 +1,27 @@
+header{
+	background-color: #FFC300;
+	height: 100px;
+}
+
+#mainlogo{
+	height: 50px;
+	padding: 10px;
+}
+
+#Zot{
+	display: inline-block;
+	font-size: 500%;
+	margin: auto;
+	padding-left: 550px;
+	font-family: arial, sans-serif;
+	color: #0F3E87;
+}
+
+#Market{
+	display: inline-block;
+	font-size: 500%;
+	margin: auto;
+	font-family: arial, sans-serif;
+	color: #FA9E35;
+}
+
