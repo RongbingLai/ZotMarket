@@ -8,6 +8,15 @@ header{
     left:0;
 }
 
+input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
 #mainlogo{
 	height: 60px;
 	padding: 10px;
