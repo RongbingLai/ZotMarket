@@ -5,9 +5,10 @@ body{
     color:black;
 }
 
-.sidemenu{
+.sidemenu
+{
     height: 100%;
-    width: 200px;
+    width: 250px;
     position: fixed;
     z-index: 1;
     top:0;
@@ -15,11 +16,12 @@ body{
     background-color:#90BEE0;
     overflow-x:hidden;
     padding-top: 20px;
+    margin-top: 100px
 }
 
-.sidemenu a, .clothes 
+.sidemenu a
 {
-    padding: 6px 8px 6px 16px;
+    padding: 6px;
     text-decoration: none;
     font-size: 20px;
     color: black;
@@ -32,7 +34,15 @@ body{
     outline: none;
 }
 
-.sidemenu a:hover, .clothes:hover
+.sidemenu a:hover
 {
     color: antiquewhite
+}
+
+.market
+{
+    margin-left: 250px;
+    margin-top:100px;
+    font-size: 20px;
+    padding: 15px;
 }
