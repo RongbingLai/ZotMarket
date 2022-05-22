@@ -8,29 +8,94 @@ body {
     padding: 30px;
 }
 
+#mainlogo{
+	height: 60px;
+	padding: 10px;
+}
+
+input[type=text] {
+    float: right;
+    padding: 6px;
+    padding-right: 200px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 480px;
+    font-size: 17px;
+}
+
+#Zot{
+	display: inline-block;
+	font-size: 500%;
+	margin: auto;
+	margin-top: 80px;
+	padding-left: 550px;
+	text-align: center;
+	font-family: arial, sans-serif;
+	color: #0F3E87;
+}
+
+#Market{
+	display: inline-block;
+	font-size: 500%;
+	margin: auto;
+	margin-top: 80px;
+	font-family: arial, sans-serif;
+	color: #FA9E35;
+}
+
+header{
+	background-color: #FFC300;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+}
+
 .title{
     padding: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.item-title {
-    margin-top: 40px;
+.catagory{
+    margin-top: 70px;
     margin-left: 30px;
 }
 
-.item-title h1 {
+.name h1 {
     font-weight: 300;
-    font-size: 22px;
+    font-size: 28px;
     color: #4b74b2;
     width: 100%;
 }
 
-.item-title span {
-    font-size: 12px;
+.catagory span {
+    font-size: 15px;
     color: #ffc300;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.thumbnail_images ul{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top:10px
+}
+
+.thumbnail_images ul li{
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #eee;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+.thumbnail_images ul li:hover{
+    border: 2px solid #000
 }
 
 .left-column {
@@ -60,7 +125,6 @@ body {
     display: flex;
 }
 
-
 .product-description {
     border-bottom: 1px solid rgb(140, 0, 0);
     margin-bottom: 20px;
@@ -69,13 +133,13 @@ body {
 .product-description p {
     font-size: 16px;
     font-weight: 300;
-    color: rgb(97, 96, 96);
+    color: black;
     line-height: 24px;
 }
 
 .product-price {
     margin-bottom: 30px;
-    color: rgb(97, 96, 96);
+    color: black;
 }
 
 .responsive {
