@@ -137,9 +137,15 @@ header{
     line-height: 24px;
 }
 
+.orignial-price{
+    text-decoration: line-through;
+    margin-bottom: 20px;
+}
+
 .product-price {
     margin-bottom: 30px;
-    color: black;
+    color: rgb(175, 69, 69);
+    font-size: 25px;
 }
 
 .responsive {
