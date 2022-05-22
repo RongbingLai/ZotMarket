@@ -107,8 +107,15 @@ input[type=text] {
     margin-right: 10px;
 }    
 
-.buttons{
+.MoreInfo{
     background-color: #8fbbff;
+    font-size: 80%;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 
