@@ -53,6 +53,22 @@ header{
     left:0;
 }
 
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    padding-bottom: 30px;
+}
+
+.protitle {
+    font-weight: bold;
+}
+
+.desc {
+    text-align: right;
+    padding-left: 30px;
+}
+
 .title{
     padding: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -126,12 +142,12 @@ header{
 }
 
 .product-description {
-    border-bottom: 1px solid rgb(140, 0, 0);
+    border-bottom: 1px solid #4b74b2;
     margin-bottom: 20px;
 }
 
 .product-description p {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
     color: black;
     line-height: 24px;
@@ -139,7 +155,8 @@ header{
 
 .orignial-price{
     text-decoration: line-through;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 19px;
 }
 
 .product-price {
