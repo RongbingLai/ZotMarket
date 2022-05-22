@@ -88,34 +88,116 @@ input[type=text] {
     margin-bottom: 30px;
 }
 
-.product1 img, h5, .product-old-price, .product-price{
-    margin-left: 250px;
+.row1_imgs{
+    display: block;
+}
+
+.row1_imgs img{
     width: 15%;
-    color: #1F1D1C;
-    line-height: 0%;
-}
-
-.product1 .product-old-price{
-    text-decoration: line-through;
-    display: inline;
-}
-
-.product1 .product-price{
     margin-left: 250px;
     display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
-}    
+    float: left;
+    display: inline-block;
+}
 
-.MoreInfo{
-    background-color: #8fbbff;
-    font-size: 80%;
+.row2_names {
+    color: #1F1D1C;
+    display: block;
+    line-height: 0%;
+    clear: both;
+}
+
+.left{
+    display: inline-block;
+    margin-left: 250px;
+}
+
+.middle{
+    display: inline-block;
+    margin-left: 275px;
+}
+
+.right{
+    display: inline-block;
+    margin-left: 375px;
+}
+
+.row3_prices {
+    color: #1F1D1C;
+    display: block;
+    line-height: 0%;
+    clear: both;
+}
+
+.row3_prices .product-old-price{
+    text-decoration: line-through;
+    display: inline-block;
+    margin-left: 250px;
+}
+
+.row3_prices .product-price{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.row3_prices .MoreInfo{
+    font-size: 90%;
     font-weight: bold;
     text-decoration: none;
-    padding-left: 8px;
+    background-color: #abc8fa;
     padding-right: 8px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-left: 8px;
 }
 
+.row3_prices .product-old-price2{
+    text-decoration: line-through;
+    display: inline-block;
+    margin-left: 285px;
+}
 
+.row3_prices .product-price2{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.row3_prices .MoreInfo2{
+    font-size: 90%;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #abc8fa;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.row3_prices .product-old-price3{
+    text-decoration: line-through;
+    display: inline-block;
+    margin-left: 315px;
+}
+
+.row3_prices .product-price3{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.row3_prices .MoreInfo3{
+    font-size: 90%;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #abc8fa;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.row4_imgs{
+    display: block;
+    margin-top: 20px;
+}
+
+.row4_imgs img{
+    width: 15%;
+    margin-left: 250px;
+    display: inline;
+    float: left;
+    display: inline-block;
+}
